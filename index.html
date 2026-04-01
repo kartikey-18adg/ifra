@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hey Ifra... 👀</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <canvas id="bgCanvas"></canvas>
+  <div id="confettiContainer"></div>
+
+  <!-- MAIN SCREEN -->
+  <main class="scene" id="mainScene">
+
+    <div class="wobble-wrapper">
+      <div class="tag">psssst... 👇</div>
+      <h1 class="headline">Hey <span class="squiggle">Ifra</span>,</h1>
+      <p class="question">will you go on a date<br/>with me? 🥺</p>
+    </div>
+
+    <p class="hint-text">tap your name to unlock a lil surprise first ✨</p>
+
+    <!-- Letter buttons -->
+    <div class="name-row">
+      <button class="letter-btn" data-letter="I">I</button>
+      <button class="letter-btn" data-letter="F">F</button>
+      <button class="letter-btn" data-letter="R">R</button>
+      <button class="letter-btn" data-letter="A">A</button>
+    </div>
+
+    <!-- Yes / No -->
+    <div class="choice-area">
+      <button class="btn-yes" id="yesBtn">Yes!! 🎉</button>
+      <button class="btn-no"  id="noBtn">no...</button>
+    </div>
+
+    <p class="no-counter" id="noCounter"></p>
+
+  </main>
+
+  <!-- LETTER REVEAL MODAL -->
+  <div class="modal-backdrop" id="modalBackdrop">
+    <div class="modal-card" id="modalCard">
+      <button class="modal-close" id="modalClose">✕</button>
+
+      <div class="modal-letter-badge" id="modalLetter">I</div>
+
+      <div class="modal-photo" id="modalPhoto">
+        <div class="photo-placeholder">
+          <div class="placeholder-emoji">📸</div>
+          <p>drop Ifra's pic here!<br/><small>set <code>photo</code> in app.js</small></p>
+        </div>
+      </div>
+
+      <p class="modal-caption" id="modalCaption"></p>
+
+      <button class="modal-ok" id="modalOk">cute! 🥰</button>
+    </div>
+  </div>
+
+  <!-- YES SCREEN -->
+  <div class="yes-scene" id="yesScene">
+    <div class="yes-blob blob1"></div>
+    <div class="yes-blob blob2"></div>
+    <div class="yes-blob blob3"></div>
+    <div class="yes-inner">
+      <div class="yes-sticker">🎊</div>
+      <h2 class="yes-heading">YAY she<br/>said <em>YES!!</em></h2>
+      <p class="yes-body">prepare yourself for the<br/>best date of your life 💅</p>
+      <div class="yes-hearts" id="yesHearts"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
