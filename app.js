@@ -2,25 +2,25 @@ const CONFIG = {
   letters: {
     I: {
       caption: "The 'I' stands for impossible to stop thinking about you 😭",
-      photo: "C:\Krish\plp\pvp-v2\ifra-date-v2\i.jpg",
+      photo: "i.jpg",
       badgeBg: 'linear-gradient(135deg, #ff4d8d, #ff85ad)',
       badgeShadow: '#c4255e',
     },
     F: {
       caption: "The 'F' stands for finally founding you this fascinating 💜",
-      photo: "c:\Krish\plp\pvp-v2\ifra-date-v2\f.jpg",
+      photo: "f.jpg",
       badgeBg: 'linear-gradient(135deg, #b14aff, #d480ff)',
       badgeShadow: '#7a28c2',
     },
     R: {
       caption: "The 'R' stands for I really really REALLY like you 🥺",
-      photo: "C:\Krish\plp\pvp-v2\ifra-date-v2\r.jpg",
+      photo: "r.jpg",
       badgeBg: 'linear-gradient(135deg, #00c9be, #00f0e3)',
       badgeShadow: '#008f86',
     },
     A: {
       caption: "The 'A' stands for being absolutely amazing 🌟",
-      photo: "C:\Krish\plp\pvp-v2\ifra-date-v2\a.jpg",
+      photo: "a.jpg",
       badgeBg: 'linear-gradient(135deg, #ffe44d, #ffd000)',
       badgeShadow: '#c5a800',
       badgeColor: '#2a0a1f',
